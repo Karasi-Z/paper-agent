@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paper-agent"
+version = "0.2.0"
+description = "Local-first research agent for paper retrieval, indexing, QA, clustering, and review generation."
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+  {name = "Xiaoyao Zhao"},
+]
+keywords = ["paper-agent", "fastapi", "langgraph", "autogen", "chromadb", "sqlite", "ollama", "rag"]
+dependencies = [
+  "pydantic>=2.7.0",
+  "numpy>=2.0.0",
+  "requests>=2.32.0",
+  "httpx>=0.28.1",
+  "pypdf>=5.0.0",
+  "fastapi>=0.135.1",
+  "uvicorn>=0.41.0",
+  "gradio>=6.9.0",
+  "scikit-learn>=1.8.0",
+  "langgraph>=1.0.10",
+  "chromadb>=1.5.2",
+  "autogen-agentchat>=0.7.5",
+  "autogen-ext[ollama]>=0.7.5",
+]
+
+[tool.setuptools]
+package-dir = {"" = "Package"}
+
+[tool.setuptools.packages.find]
+where = ["Package"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

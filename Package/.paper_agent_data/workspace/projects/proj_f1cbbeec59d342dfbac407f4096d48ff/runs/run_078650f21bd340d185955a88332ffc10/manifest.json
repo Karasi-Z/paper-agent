@@ -1,0 +1,11 @@
+{
+  "project_id": "proj_f1cbbeec59d342dfbac407f4096d48ff",
+  "run_id": "run_078650f21bd340d185955a88332ffc10",
+  "action": "ask",
+  "created_at": "2026-03-15T10:43:02.270498+00:00",
+  "payload": {
+    "action": "ask",
+    "query": "根据建模方法部分，这篇论文采用了什么建模方法？",
+    "top_k": 5
+  }
+}

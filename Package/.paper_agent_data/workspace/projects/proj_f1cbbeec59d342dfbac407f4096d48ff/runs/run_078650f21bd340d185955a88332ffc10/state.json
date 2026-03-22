@@ -1,0 +1,21 @@
+{
+  "project_id": "proj_f1cbbeec59d342dfbac407f4096d48ff",
+  "run_id": "run_078650f21bd340d185955a88332ffc10",
+  "stage": "ANALYZING",
+  "status": "running",
+  "lifecycle": "RUNNING",
+  "error": null,
+  "updated_at": "2026-03-15T10:43:02.277733+00:00",
+  "state_payload": {
+    "action": "ask",
+    "query": "根据建模方法部分，这篇论文采用了什么建模方法？",
+    "top_k": 5,
+    "run_id": "run_078650f21bd340d185955a88332ffc10",
+    "project_id": "proj_f1cbbeec59d342dfbac407f4096d48ff",
+    "paper_count": 0,
+    "last_checkpoint_stage": "INDEXING",
+    "last_checkpoint_at": "2026-03-15T10:43:02.276311+00:00",
+    "paper_id_list": [],
+    "payload_type": "NoneType"
+  }
+}
